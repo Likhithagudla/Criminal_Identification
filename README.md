@@ -1,35 +1,30 @@
-# Face_recognition_based_attendance_system
-A python GUI integrated attendance system using face recognition to take attendance.
-
-In this python project, I have made an attendance system which takes attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
-
-TECHNOLOGY USED:
-1) tkinter for whole GUI
-2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
-3) CSV, Numpy, Pandas, datetime etc. for other purposes.
-
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for deatils of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
-
-### For more information:
-https://machinelearningprojects.net/face-recognition-based-attendance-system/
+# Criminal Identification Using Image Recognition 
+In this project, we have developed a system for detecting criminal faces, for this, we have used deep learning 
+algorithms. Deep learning is currently the most well-known technique, and it is utilized in a variety of 
+applications. One such application is crime detection and prevention. The criminal's face is recognized by this 
+system, which then obtains the criminal's database information. In this application detect image and video for 
+criminal identification. Once select the image to identify it results whether the person is criminal or non-criminal. 
+It will simplify the investigation process. We use pre trained convolution neural network architecture called VGG16. 
+It can classify the images among 1000 categories. We collected our datasets from NIST special datasets 18. 
+This project will identify whether the person is criminal or noncriminal. It can able to run in a real time. this 
+project can able to process video and detect the identity of the person through video only if the person is criminal. 
+Otherwise, recognize as non-criminal.
+Keywords- OPENCV, NUMPY, IMAGE PROCESSING, LBPH, Facial Emotion Recognition, CNN
 
 # SCREENSHOTS
 MAIN SCREEN:
-![Screenshot (9)](https://user-images.githubusercontent.com/37211676/58502148-97ec2a00-81a3-11e9-963e-674b9c3e05dc.png)
-
-TAKING ATTENDANCE:
-![Screenshot (10)](https://user-images.githubusercontent.com/37211676/58502149-97ec2a00-81a3-11e9-9658-8968da396c2e.png)
-
-SHOWING ATTENDANCE TAKEN:
-![Screenshot (11)](https://user-images.githubusercontent.com/37211676/58502151-9884c080-81a3-11e9-9a90-fec29940ee5a.png)
-
-HELP OPTION IN MENUBAR:
-![Screenshot (12)](https://user-images.githubusercontent.com/37211676/58502152-991d5700-81a3-11e9-861a-9115526010c2.png)
+![Screenshot (9)](https://github.com/user-attachments/assets/904dfeb2-f356-472d-9f7b-a38f18955977)
 
 CHANGE PASSWORD OPTION:
 ![Screenshot (13)](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
+
+
+SHOWING CRIMINAL:
+![Screenshot (11)](https://github.com/user-attachments/assets/57059f08-cf3e-496d-8417-2f44ff2560a3)
+
+CRIMINAL SAVED DATA
+![Screenshot (10)](https://github.com/user-attachments/assets/97bc7b51-1c4c-4fe7-b3da-8d396befb4a3)
+
+
+
+
